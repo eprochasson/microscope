@@ -11,8 +11,8 @@
     <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/packages/templating/deftemplate.js" changelist="085884a0-566c-4088-a05c-fa48dc9a9647" time="1370333029074" ignored="false" />
     <file path="/publications.js" changelist="085884a0-566c-4088-a05c-fa48dc9a9647" time="1370333048198" ignored="false" />
     <file path="/main.js" changelist="085884a0-566c-4088-a05c-fa48dc9a9647" time="1370333063763" ignored="false" />
-    <file path="/main.html" changelist="085884a0-566c-4088-a05c-fa48dc9a9647" time="1370334906452" ignored="false" />
-    <file path="/router.js" changelist="085884a0-566c-4088-a05c-fa48dc9a9647" time="1370338905893" ignored="false" />
+    <file path="/main.html" changelist="085884a0-566c-4088-a05c-fa48dc9a9647" time="1370340346396" ignored="false" />
+    <file path="/router.js" changelist="085884a0-566c-4088-a05c-fa48dc9a9647" time="1370340670869" ignored="false" />
     <file path="/post_page.html" changelist="085884a0-566c-4088-a05c-fa48dc9a9647" time="1370333957226" ignored="false" />
     <file path="/post_page.js" changelist="085884a0-566c-4088-a05c-fa48dc9a9647" time="1370334233090" ignored="false" />
     <file path="$PROJECT_DIR$/.meteor/local/build/static_cacheable/client/views/posts/template.post_page.js" changelist="085884a0-566c-4088-a05c-fa48dc9a9647" time="1370334285091" ignored="false" />
@@ -24,6 +24,8 @@
     <file path="/loading.html" changelist="085884a0-566c-4088-a05c-fa48dc9a9647" time="1370337491527" ignored="false" />
     <file path="/post_edit.js" changelist="085884a0-566c-4088-a05c-fa48dc9a9647" time="1370338794429" ignored="false" />
     <file path="/permissions.js" changelist="085884a0-566c-4088-a05c-fa48dc9a9647" time="1370339121554" ignored="false" />
+    <file path="/errors.js" changelist="085884a0-566c-4088-a05c-fa48dc9a9647" time="1370340758083" ignored="false" />
+    <file path="/errors.html" changelist="085884a0-566c-4088-a05c-fa48dc9a9647" time="1370340375695" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,55 +45,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="header.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/views/includes/header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="11" selection-start="440" selection-end="440" vertical-scroll-proportion="-7.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="post_submit.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/views/posts/post_submit.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="3" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0">
+            <state line="23" column="3" selection-start="802" selection-end="802" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="posts_list.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/views/posts/posts_list.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="3" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="post_edit.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/views/posts/post_edit.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="11" selection-start="1016" selection-end="1016" vertical-scroll-proportion="-18.75">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="post_edit.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/views/posts/post_edit.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="722" selection-end="722" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="posts.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="posts.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/collections/posts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="3" selection-start="298" selection-end="298" vertical-scroll-proportion="0.20179372">
+            <state line="27" column="0" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="errors.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/helpers/errors.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/main.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="16" selection-start="109" selection-end="109" vertical-scroll-proportion="-3.75">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="errors.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/views/includes/errors.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="11" selection-start="331" selection-end="331" vertical-scroll-proportion="-8.125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="errors.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/views/includes/errors.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="2" selection-start="249" selection-end="249" vertical-scroll-proportion="0.16816144">
               <folding />
             </state>
           </provider>
@@ -100,7 +102,7 @@
       <file leaf-file-name="router.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/helpers/router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="6" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0">
+            <state line="31" column="0" selection-start="726" selection-end="726" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -143,22 +145,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/client/views/posts/post_page.js" />
-        <option value="$PROJECT_DIR$/client/main.html" />
-        <option value="$PROJECT_DIR$/client/helpers/config.js" />
-        <option value="$PROJECT_DIR$/client/views/posts/post_submit.html" />
         <option value="$PROJECT_DIR$/client/views/includes/access_denied.html" />
         <option value="$PROJECT_DIR$/client/views/includes/loading.html" />
         <option value="$PROJECT_DIR$/client/views/includes/header.html" />
-        <option value="$PROJECT_DIR$/client/views/posts/post_submit.js" />
         <option value="$PROJECT_DIR$/client/views/posts/posts_list.js" />
         <option value="$PROJECT_DIR$/client/views/posts/post_edit.html" />
         <option value="$PROJECT_DIR$/client/views/posts/post_edit.js" />
-        <option value="$PROJECT_DIR$/client/helpers/router.js" />
         <option value="$PROJECT_DIR$/client/views/posts/post_item.html" />
         <option value="$PROJECT_DIR$/client/views/posts/post_item.js" />
         <option value="$PROJECT_DIR$/lib/permissions.js" />
         <option value="$PROJECT_DIR$/collections/posts.js" />
+        <option value="$PROJECT_DIR$/client/main.html" />
+        <option value="$PROJECT_DIR$/client/views/includes/errors.html" />
+        <option value="$PROJECT_DIR$/client/views/posts/post_submit.js" />
+        <option value="$PROJECT_DIR$/client/helpers/errors.js" />
+        <option value="$PROJECT_DIR$/client/helpers/router.js" />
+        <option value="$PROJECT_DIR$/client/views/includes/errors.js" />
       </list>
     </option>
   </component>
@@ -461,34 +463,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/views/posts/post_page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="3" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="16" selection-start="92" selection-end="92" vertical-scroll-proportion="-3.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/helpers/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="3" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/posts/post_submit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="1045" selection-end="1045" vertical-scroll-proportion="-18.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/views/includes/access_denied.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="11" selection-start="118" selection-end="118" vertical-scroll-proportion="0.03456221">
@@ -506,13 +480,6 @@
     <entry file="file://$PROJECT_DIR$/client/views/includes/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="11" selection-start="440" selection-end="440" vertical-scroll-proportion="-7.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/views/posts/post_submit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="3" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -538,13 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/helpers/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="6" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/views/posts/post_item.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="11" selection-start="422" selection-end="422" vertical-scroll-proportion="-6.875">
@@ -566,9 +526,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="16" selection-start="109" selection-end="109" vertical-scroll-proportion="-3.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/includes/errors.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="11" selection-start="331" selection-end="331" vertical-scroll-proportion="-8.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/collections/posts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="3" selection-start="298" selection-end="298" vertical-scroll-proportion="0.20179372">
+        <state line="27" column="0" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/posts/post_submit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="3" selection-start="802" selection-end="802" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/helpers/errors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/helpers/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="726" selection-end="726" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/views/includes/errors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="2" selection-start="249" selection-end="249" vertical-scroll-proportion="0.16816144">
           <folding />
         </state>
       </provider>

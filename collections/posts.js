@@ -40,6 +40,5 @@ Meteor.methods({
         });
 
         return Posts.insert(post);
-
     }
 });
